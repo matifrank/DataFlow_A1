@@ -1,0 +1,57 @@
+[16/01/2024 15:25:23] Creating A1 report DataFrame
+[16/01/2024 15:25:23] Generating location files path..
+[16/01/2024 15:25:23] Exporting DataFrame to CSV into location..
+[17/01/2024 19:00:44] Creating A1 report DataFrame
+[17/01/2024 19:00:44] Generating location files path..
+[17/01/2024 19:00:44] Exporting DataFrame to CSV into location..
+[17/01/2024 19:03:20] Creating A1 report DataFrame
+[17/01/2024 19:03:20] Generating location files path..
+[17/01/2024 19:03:20] Exporting DataFrame to CSV into location..
+[17/01/2024 19:21:05] Creating A1 report DataFrame
+[17/01/2024 19:21:05] Generating location files path..
+[17/01/2024 19:21:05] Exporting DataFrame to CSV into location..
+[18/01/2024 13:45:13] Error loading CSV file '..\docs\\leads_a1 2023-12-01-2023-12-31.csv': [Errno 2] No such file or directory: '..\\docs\\\\leads_a1 2023-12-01-2023-12-31.csv'
+[18/01/2024 13:45:13] [Errno 2] No such file or directory: '..\\docs\\\\leads_a1 2023-12-01-2023-12-31.csv'
+Traceback (most recent call last):
+  File "C:\Users\Frank\Data_projects\Dataflow_A1\scripts\report_a1.py", line 11, in load_data
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\docs\\\\leads_a1 2023-12-01-2023-12-31.csv'
+[18/01/2024 13:52:57] Error loading CSV file '..\docs\\leads_a1 2023-12-01-2023-12-31.csv': [Errno 2] No such file or directory: '..\\docs\\\\leads_a1 2023-12-01-2023-12-31.csv'
+[18/01/2024 13:52:57] [Errno 2] No such file or directory: '..\\docs\\\\leads_a1 2023-12-01-2023-12-31.csv'
+Traceback (most recent call last):
+  File "C:\Users\Frank\Data_projects\Dataflow_A1\scripts\report_a1.py", line 11, in load_data
+    df = pd.read_csv(csv_path)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\parsers\readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\Frank\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\common.py", line 786, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '..\\docs\\\\leads_a1 2023-12-01-2023-12-31.csv'
+[18/01/2024 13:55:58] Creating A1 report DataFrame
+[18/01/2024 13:55:58] Generating location files path..
+[18/01/2024 13:55:58] Exporting DataFrame to CSV into location..
+[18/01/2024 14:17:15] Creating A1 report DataFrame
+[18/01/2024 14:17:15] Generating location files path..
+[18/01/2024 14:17:15] Exporting DataFrame to CSV into location..
+[18/01/2024 14:19:36] Creating A1 report DataFrame
+[18/01/2024 14:19:36] Generating location files path..
+[18/01/2024 14:19:36] Exporting DataFrame to CSV into location..

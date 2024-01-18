@@ -1,0 +1,6 @@
+{
+	"ROOT_PATH": "docs\\",
+	"FILEPATH_SESSIONS" : "analytics-sites-sessions %s-%s.csv",
+	"FILEPATH_LEADS": "leads_a1 %s-%s.csv",
+	"FILEPATH_A1": "reporte_a1 %s-%s.csv"
+}

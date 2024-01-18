@@ -1,0 +1,172 @@
+{
+	"ROOT_PATH": "docs\\",
+	"FILEPATH" : "analytics-sites-sessions %s-%s.csv",
+	"REPORTS": [
+		{
+			"NAME": "TOTAL",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},{
+			"NAME": "DSA",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"sessionCampaignName", "stringFilter":{"matchType":"CONTAINS","value":"DSA"}}}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},
+		{
+			"NAME": "FB",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"sessionCampaignName", "stringFilter":{"matchType":"CONTAINS","value":"FB_"}}}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},
+		{
+			"NAME": "GADS",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"sessionCampaignName", "stringFilter":{"matchType":"CONTAINS","value":"CYC_"}}}],
+			"DATE":[{ "start_date": "2023-06-01", "end_date": "2023-07-27"}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},
+		{
+			"NAME": "EMC",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"sessionSource", "stringFilter":{"matchType":"CONTAINS","value":"custom"}}}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},
+		{
+			"NAME": "EMAIL",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"sessionSource", "stringFilter":{"matchType":"CONTAINS","value":"mail"}}}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},
+		{
+			"NAME": "LANDING",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"fullPageUrl", "stringFilter":{"matchType":"CONTAINS","value":"landing"}}}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		},
+		{
+			"NAME": "LADS",
+			"METRICS": [{"name": "sessions"}],
+			"DIMENSIONS": [{"name": "yearMonth"}], 
+			"FILTER": [{"filter":{"fieldName":"sessionCampaignName", "stringFilter":{"matchType":"CONTAINS","value":"LADS"}}}],
+			"DATE":[{ "start_date": "", "end_date": ""}],
+			"SITES": [
+				{"PROPID":"295939237","IDSITE":"1","KEY":"Buscouniversidad.com"}, 
+				{"PROPID":"313573913","IDSITE":"4","KEY":"MX Cursos y Carreras"},
+				{"PROPID":"313562196","IDSITE":"3","KEY":"CL Cursos y Carreras"},
+				{"PROPID":"353752977","IDSITE":"6","KEY":"UY Cursos y Carreras"},
+				{"PROPID":"313581298","IDSITE":"5","KEY":"CO Cursos y Carreras"},
+				{"PROPID":"354028780","IDSITE":"7","KEY":"PE Cursos y Carreras"},
+				{"PROPID":"354062796","IDSITE":"8","KEY":"EC Cursos y Carreras"},
+				{"PROPID":"354055748","IDSITE":"10","KEY":"VE Cursos y Carreras"},
+				{"PROPID":"354061616","IDSITE":"9","KEY":"ES Cursos y Carreras"},
+				{"PROPID":"354045920","IDSITE":"2","KEY":"BR Cursos y Carreras"},
+				{"PROPID":"354052513","IDSITE":"15","KEY":"PY Cursos y Carreras"},
+				{"PROPID":"354036038","IDSITE":"16","KEY":"CR Cursos y Carreras"}
+			]
+		}
+	]
+}
